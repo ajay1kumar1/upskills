@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Sparkles, CheckCircle2, ArrowRight, Bot, Layers, ShieldCheck, Database, Cpu } from 'lucide-react'
+import { Sparkles, ArrowRight, Bot, Layers, ShieldCheck, Database, Cpu } from 'lucide-react'
 import AIArchitectureDiagram from '../components/AIArchitectureDiagram'
 
 export default function AI() {

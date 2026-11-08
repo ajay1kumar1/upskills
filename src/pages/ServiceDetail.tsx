@@ -1,6 +1,6 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
-import { ArrowLeft, ArrowRight, CheckCircle2, ShieldAlert, Sparkles, Building2 } from 'lucide-react'
-import { getServiceBySlug, services } from '../data/services'
+import { ArrowLeft, ArrowRight, CheckCircle2, ShieldAlert, Sparkles } from 'lucide-react'
+import { getServiceBySlug } from '../data/services'
 
 export default function ServiceDetail() {
   const { slug } = useParams<{ slug: string }>()

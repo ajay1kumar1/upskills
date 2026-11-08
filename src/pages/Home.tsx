@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, Sparkles, Cpu, ShieldCheck, Zap, Globe, CheckCircle2, Award, Users } from 'lucide-react'
+import { ArrowRight, Sparkles, Cpu, ShieldCheck, Zap, CheckCircle2, Users } from 'lucide-react'
 import { services } from '../data/services'
 import { industries } from '../data/industries'
 import { insights } from '../data/insights'

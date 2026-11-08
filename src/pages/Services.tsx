@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight, Layers, CheckCircle2, ShieldAlert } from 'lucide-react'
+import { ArrowRight, Layers, CheckCircle2 } from 'lucide-react'
 import { services } from '../data/services'
 
 export default function Services() {

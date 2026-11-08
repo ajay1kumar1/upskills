@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { CheckCircle2, ShieldCheck, Users, Target, Compass, Award, ArrowRight } from 'lucide-react'
+import { Users, Target, Compass, ArrowRight } from 'lucide-react'
 
 export default function About() {
   const values = [
