@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  upskills-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    environment:
+      - NODE_ENV=production
+    labels:
+      - "com.upskillsin.service=website"
+      - "com.upskillsin.description=Corporate website for Upskills.in"
